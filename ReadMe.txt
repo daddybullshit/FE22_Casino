@@ -3,9 +3,9 @@ Let us pretend we have a Casino from Las Vegas as our stakeholder.
 I want you to do minimal work to complete a few tasks.
 Please, do not make this example beautiful or advanced, we just keep it simple.
 
-Your solution may be incomplete, we will tidy it together later another time.
-For example, there is no <head> and <body> or <title> tags in the HTML. Let
-us at this moment run at bare minimum as much as we can. We work on MVP. 
+Your solution may be incomplete, we will tidy it together later another time. For
+example, there is no <head> and <body> or <title> tags in the HTML. Let us at this
+moment run at bare minimum as much as we can. We work on MVP. 
 
 A minimum viable product (MVP) is a version of a product with just enough features
 to be usable by early customers who can then provide feedback for future product
