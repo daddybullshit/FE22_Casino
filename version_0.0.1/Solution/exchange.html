@@ -1,7 +1,23 @@
-<h1>Welcome Mr. Bond.</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="./app.js"></script>
+</head>
+<body>
 
-You have chips to the value 0$.<br>
-<br>
-How many chips do you want to buy?<br>
-<br>
-Exit
+    <h1>Welcome <span id="username"></span>.</h1>
+    <p>You have chips to the value 0$.</p>
+    <p>How many chips do you want to buy?</p>
+    <button onclick="window.location = './index.html';">Exit</button>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+        document.querySelector('#username').textContent = username || "Mr. Bond";
+    </script>
+</body>
+</html>
